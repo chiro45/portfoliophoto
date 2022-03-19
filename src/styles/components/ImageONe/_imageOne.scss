@@ -1,0 +1,87 @@
+
+
+
+.image{
+    position: relative;
+    height: 100vh;
+   
+}
+.containnerParallax{
+    margin-bottom: 0rem;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0;
+    height: 100vh;
+   
+    overflow-x: hidden;
+}
+
+.img-text{
+    text-transform: uppercase;
+    color: #fff;
+    
+    padding: 1rem;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    font-weight: 500;
+    letter-spacing: .6rem;
+    text-rendering:optimizeLegibility;
+    transition: .4s ease-in color   ;
+    &:hover{
+        color:rgb(165, 165, 165);
+            cursor: pointer;
+           
+        }
+
+}
+.firstAndLast{
+    margin-bottom: 0rem;
+}
+
+.img-text  i{
+    margin-top: 0rem;
+    transition: .5s ease transform;
+    &:hover{
+        transform: translate(0, .8rem);
+    }
+   
+}
+
+.cajaScroll{
+    z-index: 4001;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+    transition: .5s ease transform;
+     &:hover{
+        cursor: pointer;
+        transform: translate(0, .8rem);
+        
+     }
+}
+.img-textScroll, .img-text-Scroll-garet i {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.text-box{
+    text-align: center;
+    padding: 3rem 1rem;
+    text-align: justify;
+    background-color: #fff;
+    width: 90%;
+}
+.text-box-text{
+    text-align: center;
+}
+
+

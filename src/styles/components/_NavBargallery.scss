@@ -1,0 +1,81 @@
+.navBarContainer{
+    background-color: #fff;
+    
+}
+
+.navBar__containerItems{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navBar__containerTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navBar__containerTitle h2{
+    margin-top: 4rem;
+    font-size: 2rem;
+}
+.navBar__containerTitle img{
+    height: 250px;
+    margin-left: -.4rem;
+    
+}
+.navBar__container-categories{
+    display: flex;
+    
+}
+.navBar__orderList-categories{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.navBar__itemList-categories,
+.navBar__itemList-social{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+        transition: .5s ease text-decoration;
+        &:hover{
+            i{
+            transition: .5s ease transform;
+            font-size: 1.6rem;
+              transform:translate(.6rem, 0rem);
+          }
+          cursor: pointer;
+          text-decoration: underline;
+      }
+
+}
+.navBar__itemList-categories i{
+    margin: .3rem;
+}
+.navBar__itemList-categories i, .navBar__itemList-social i {
+
+    font-size: 1.3rem;
+
+}
+
+.navBar__title-socials{
+    text-decoration: underline;
+    
+}
+.navBar__container-socials{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+.navBar__container__items{
+   margin-top: 1rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;    
+    
+}
