@@ -1,17 +1,16 @@
 
 
-
-.image{
-    position: relative;
-    height: 100vh;
-   
-}
-.containnerParallax{
-    margin-bottom: 0rem;
+.contentParallax{
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
     flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    overflow-x: hidden;
 }
-.content{
+.contentLastAndFirst{
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -19,14 +18,12 @@
     justify-content: flex-end;
     margin: 0;
     height: 100vh;
-   
     overflow-x: hidden;
 }
 
-.img-text{
+.parallax__img-text{
     text-transform: uppercase;
     color: #fff;
-    
     padding: 1rem;
     font-size: 3rem;
     margin-bottom: 5rem;

@@ -12,8 +12,8 @@ export const ImagesIntermediated = ({path , title}) => {
       <Background className="custom-bg">
             <img  className='imgback' src={`${path}`} alt="fill murray" />
         </Background>
-       <div className='content'>
-            <h3 className='img-text'> - {title} -</h3>
+       <div className='contentParallax'>
+            <h3 className='parallax__img-text'> - {title} -</h3>
        </div>
     </Parallax>
         
